@@ -1,0 +1,12 @@
+footer {
+  font-family: $secondaryFont;
+  font-size: 0.8em;
+  position: relative;
+  height: 4em;
+  margin-top: -4em;
+  clear: both;
+  text-align: center;
+  .location {
+    font-family: $mainFont;
+  }
+}

@@ -1,0 +1,32 @@
+.aboutUs {
+  font-family: $secondaryFont;
+  #storeImage {
+    max-width: 100%;
+    height: auto;
+  }
+  p {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    h3 {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    #viewMenu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #2E86AB;
+      border-radius: 5px;
+      margin: 10px 20px 0 20px;
+    }
+    i {
+      margin-left: 5px;
+    }
+  }
+}

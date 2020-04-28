@@ -1,4 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@500&display=swap");
+@import url("https://css.gg/bowl.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+html body {
+  height: 100%;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#container #main {
+  overflow: auto;
+  padding-bottom: 4em;
+}
+
 header .topNav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,10 +60,62 @@ header .topNav .navList ul li a {
   color: black;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.aboutUs {
+  font-family: "Roboto Slab", serif;
+}
+
+.aboutUs #storeImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.aboutUs p {
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.aboutUs a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.aboutUs a h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.aboutUs a #viewMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2E86AB;
+  border-radius: 5px;
+  margin: 10px 20px 0 20px;
+}
+
+.aboutUs a i {
+  margin-left: 5px;
+}
+
+footer {
+  font-family: "Roboto Slab", serif;
+  font-size: 0.8em;
+  position: relative;
+  height: 4em;
+  margin-top: -4em;
+  clear: both;
+  text-align: center;
+}
+
+footer .location {
+  font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
