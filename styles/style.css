@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@500&display=swap");
+header .topNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1em;
+}
+
+header .topNav img {
+  vertical-align: middle;
+}
+
+header .topNav h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+header .topNav .navList ul {
+  list-style-type: none;
+  overflow: hidden;
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+}
+
+header .topNav .navList ul li {
+  display: inline;
+  padding-left: 2em;
+}
+
+header .topNav .navList ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

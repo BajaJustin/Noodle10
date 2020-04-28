@@ -1,0 +1,30 @@
+header {
+  .topNav {
+      display: flex;
+      align-items: center;
+      margin-left: 1em;
+      img {
+        vertical-align: middle;
+      }
+      h1 {
+        font-family: $mainFont;
+      }
+    .navList {
+      ul {
+        list-style-type: none;
+        overflow: hidden;
+        font-family: $secondaryFont;
+        font-size: 1em;
+        li {
+          display: inline;
+          padding-left: 2em;
+          a {
+            display: inline-block;
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
