@@ -1,13 +1,19 @@
 .aboutUs {
   font-family: $secondaryFont;
-  #storeImage {
-    max-width: 100%;
-    height: auto;
-  }
-  p {
-    font-size: 0.9em;
-    text-align: center;
-    margin-top: 0.5em;
+  #content {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    #ramenBowl {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+    p {
+      font-size: 0.9em;
+      text-align: center;
+      margin-top: 0.5em;
+    }
   }
   a {
     text-align: center;
@@ -22,11 +28,11 @@
       align-items: center;
       justify-content: center;
       background-color: #2E86AB;
-      border-radius: 5px;
-      margin: 10px 20px 0 20px;
+      border-radius: 0.3125em;
+      margin: 1em 1.25em 0 1em;
     }
     i {
-      margin-left: 5px;
+      margin-left: 0.3125em;
     }
   }
 }

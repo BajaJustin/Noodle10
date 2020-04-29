@@ -24,6 +24,12 @@ html body {
   padding-bottom: 4em;
 }
 
+header {
+  background-color: #2E86AB;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
 header .topNav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,12 +70,19 @@ header .topNav .navList ul li a {
   font-family: "Roboto Slab", serif;
 }
 
-.aboutUs #storeImage {
-  max-width: 100%;
-  height: auto;
+.aboutUs #content {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
 }
 
-.aboutUs p {
+.aboutUs #content #ramenBowl {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.aboutUs #content p {
   font-size: 0.9em;
   text-align: center;
   margin-top: 0.5em;
@@ -97,25 +110,36 @@ header .topNav .navList ul li a {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #2E86AB;
-  border-radius: 5px;
-  margin: 10px 20px 0 20px;
+  border-radius: 0.3125em;
+  margin: 1em 1.25em 0 1em;
 }
 
 .aboutUs a i {
-  margin-left: 5px;
+  margin-left: 0.3125em;
 }
 
 footer {
   font-family: "Roboto Slab", serif;
-  font-size: 0.8em;
+  font-weight: bold;
   position: relative;
   height: 4em;
   margin-top: -4em;
   clear: both;
   text-align: center;
+  background-color: #2E86AB;
 }
 
 footer .location {
+  padding-top: 1em;
   font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+footer .daysOpen {
+  font-size: 10px;
+}
+
+footer .hoursOpen {
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
