@@ -1,5 +1,5 @@
 header {
-  background-color: #2E86AB;
+  background-color: $mainColor;
   border-bottom-left-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
   .topNav {
@@ -24,7 +24,7 @@ header {
           a {
             display: inline-block;
             text-decoration: none;
-            color: black;
+            color: $mainFontColor;
           }
         }
       }

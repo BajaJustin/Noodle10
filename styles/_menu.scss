@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  .menuSection {
+    font-family: $mainFont;
+    margin-top: 0.5em;
+    text-align: center;
+  }
+  .menuItems {
+    width: 11em;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+    img {
+      width: 100%;
+    }
+    h3 {
+      font-family: $mainFont;
+    }
+    p {
+      font-family: $secondaryFont;
+      font-size: 0.9em;
+    }
+  }
+}

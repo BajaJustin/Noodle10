@@ -13,6 +13,7 @@ html {
 
 html body {
   height: 100%;
+  background-color: #E5F0F4;
 }
 
 #container {
@@ -63,7 +64,7 @@ header .topNav .navList ul li {
 header .topNav .navList ul li a {
   display: inline-block;
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .aboutUs {
@@ -91,7 +92,7 @@ header .topNav .navList ul li a {
 .aboutUs a {
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .aboutUs a h3 {
@@ -116,6 +117,42 @@ header .topNav .navList ul li a {
 
 .aboutUs a i {
   margin-left: 0.3125em;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-container .menuSection {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.flex-container .menuItems {
+  width: 11em;
+  margin: 0 auto;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.flex-container .menuItems img {
+  width: 100%;
+}
+
+.flex-container .menuItems h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.flex-container .menuItems p {
+  font-family: "Roboto Slab", serif;
+  font-size: 0.9em;
 }
 
 footer {

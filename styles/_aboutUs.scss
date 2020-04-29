@@ -18,7 +18,7 @@
   a {
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: $mainFontColor;
     h3 {
       margin-top: 0.5em;
       margin-bottom: 0.5em;
@@ -27,7 +27,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #2E86AB;
+      background-color: $mainColor;
       border-radius: 0.3125em;
       margin: 1em 1.25em 0 1em;
     }
