@@ -3,7 +3,12 @@
   flex-direction: column;
   .menuSection {
     font-family: $mainFont;
+    background-color: $mainColor;
+    color: $mainFontColor;
+    padding: 0.3em;
     margin-top: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
     text-align: center;
   }
   .menuItems {
@@ -11,15 +16,26 @@
     margin: 0 auto;
     margin-top: 1em;
     text-align: center;
+    :nth-last-child(1) {
+      margin-bottom: 1em;
+    }
     img {
       width: 100%;
     }
     h3 {
       font-family: $mainFont;
+      color: $mainFontColor;
     }
     p {
       font-family: $secondaryFont;
+      color: $mainFontColor;
       font-size: 0.9em;
+    }
+    .price {
+      background-color: $mainColor;
+      color: $mainFontColor;
+      margin: 0.5em 3em 0 3em;
+      font-weight: bold;
     }
   }
 }

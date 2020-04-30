@@ -13,7 +13,7 @@ html {
 
 html body {
   height: 100%;
-  background-color: #E5F0F4;
+  background-color: #150704;
 }
 
 #container {
@@ -26,7 +26,7 @@ html body {
 }
 
 header {
-  background-color: #2E86AB;
+  background-color: #AA381E;
   border-bottom-left-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
 }
@@ -47,6 +47,7 @@ header .topNav img {
 
 header .topNav h1 {
   font-family: "Roboto", sans-serif;
+  color: #CC9900;
 }
 
 header .topNav .navList ul {
@@ -64,7 +65,7 @@ header .topNav .navList ul li {
 header .topNav .navList ul li a {
   display: inline-block;
   text-decoration: none;
-  color: #000000;
+  color: #CC9900;
 }
 
 .aboutUs {
@@ -87,12 +88,13 @@ header .topNav .navList ul li a {
   font-size: 0.9em;
   text-align: center;
   margin-top: 0.5em;
+  color: #CC9900;
 }
 
 .aboutUs a {
   text-align: center;
   text-decoration: none;
-  color: #000000;
+  color: #CC9900;
 }
 
 .aboutUs a h3 {
@@ -110,7 +112,7 @@ header .topNav .navList ul li a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #2E86AB;
+  background-color: #AA381E;
   border-radius: 0.3125em;
   margin: 1em 1.25em 0 1em;
 }
@@ -131,7 +133,12 @@ header .topNav .navList ul li a {
 
 .flex-container .menuSection {
   font-family: "Roboto", sans-serif;
+  background-color: #AA381E;
+  color: #CC9900;
+  padding: 0.3em;
   margin-top: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
   text-align: center;
 }
 
@@ -142,17 +149,30 @@ header .topNav .navList ul li a {
   text-align: center;
 }
 
+.flex-container .menuItems :nth-last-child(1) {
+  margin-bottom: 1em;
+}
+
 .flex-container .menuItems img {
   width: 100%;
 }
 
 .flex-container .menuItems h3 {
   font-family: "Roboto", sans-serif;
+  color: #CC9900;
 }
 
 .flex-container .menuItems p {
   font-family: "Roboto Slab", serif;
+  color: #CC9900;
   font-size: 0.9em;
+}
+
+.flex-container .menuItems .price {
+  background-color: #AA381E;
+  color: #CC9900;
+  margin: 0.5em 3em 0 3em;
+  font-weight: bold;
 }
 
 footer {
@@ -163,7 +183,7 @@ footer {
   margin-top: -4em;
   clear: both;
   text-align: center;
-  background-color: #2E86AB;
+  background-color: #AA381E;
 }
 
 footer .location {
