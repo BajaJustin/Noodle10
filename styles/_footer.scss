@@ -19,3 +19,21 @@ footer {
     font-size: 10px;
   }
 }
+
+// Medium devices (Tablets)
+@media (min-width: 768px){
+  footer {
+    height: 6em;
+    margin-top: -6em;
+    .location {
+      font-size: 18px;
+      margin-top: 0;
+    }
+    .daysOpen {
+      font-size: 1em;
+    }
+    .hoursOpen {
+      font-size: 1em;
+    }
+  }
+}

@@ -37,3 +37,26 @@
     }
   }
 }
+
+// Medium devices (Tablets)
+@media (min-width: 768px){
+  .aboutUs {
+    #content {
+      margin: 5em;
+      margin-bottom: 0;
+      p {
+        font-size: 1.2em;
+        margin-top: 2em;
+      }
+    }
+    #viewMenu {
+      font-size: 2em;
+      i {
+        margin-left: 0.6em;
+      }
+      .gg-bowl {
+        --ggs: 2;
+      }
+    }
+  }
+}

@@ -25,6 +25,12 @@ html body {
   padding-bottom: 4em;
 }
 
+@media (min-width: 768px) {
+  #main {
+    padding-bottom: 5em;
+  }
+}
+
 header {
   background-color: #AA381E;
   border-bottom-left-radius: 0.5em;
@@ -121,6 +127,26 @@ header .topNav .navList ul li a {
   margin-left: 0.3125em;
 }
 
+@media (min-width: 768px) {
+  .aboutUs #content {
+    margin: 5em;
+    margin-bottom: 0;
+  }
+  .aboutUs #content p {
+    font-size: 1.2em;
+    margin-top: 2em;
+  }
+  .aboutUs #viewMenu {
+    font-size: 2em;
+  }
+  .aboutUs #viewMenu i {
+    margin-left: 0.6em;
+  }
+  .aboutUs #viewMenu .gg-bowl {
+    --ggs: 2;
+  }
+}
+
 .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -198,5 +224,22 @@ footer .daysOpen {
 
 footer .hoursOpen {
   font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    height: 6em;
+    margin-top: -6em;
+  }
+  footer .location {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  footer .daysOpen {
+    font-size: 1em;
+  }
+  footer .hoursOpen {
+    font-size: 1em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
