@@ -201,6 +201,54 @@ header .topNav .navList ul li a {
   font-weight: bold;
 }
 
+@media (min-width: 768px) {
+  .flex-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .flex-container .menuSection {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .flex-container .menuItems {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .flex-container .menuItems img {
+    width: 11em;
+    height: 11em;
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
+  }
+  .flex-container .menuItems .price {
+    font-size: 1.2em;
+  }
+  .flex-container .beverages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .flex-container .beverages .menuItems {
+    width: 40%;
+  }
+  .flex-container .beverages .menuItems :nth-last-child(1) {
+    margin-bottom: 5em;
+  }
+}
+
 footer {
   font-family: "Roboto Slab", serif;
   font-weight: bold;
