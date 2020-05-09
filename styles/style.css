@@ -31,13 +31,20 @@ html body {
   }
 }
 
-header {
+header .topNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #AA381E;
-  border-bottom-left-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
+  color: #CC9900;
+  font-size: 1em;
+  font-family: "Roboto Slab", serif;
 }
 
-header .topNav {
+header .topNav .navLogo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,31 +54,30 @@ header .topNav {
   margin-left: 1em;
 }
 
-header .topNav img {
-  vertical-align: middle;
-}
-
-header .topNav h1 {
+header .topNav .navLogo h1 {
   font-family: "Roboto", sans-serif;
-  color: #CC9900;
 }
 
-header .topNav .navList ul {
+header .topNav .mainNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   list-style-type: none;
-  overflow: hidden;
-  font-family: "Roboto Slab", serif;
-  font-size: 1em;
 }
 
-header .topNav .navList ul li {
-  display: inline;
-  padding-left: 2em;
+header .topNav .mainNav li {
+  padding: 1em;
 }
 
-header .topNav .navList ul li a {
-  display: inline-block;
-  text-decoration: none;
+header .topNav .mainNav li a {
   color: #CC9900;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  header .topNav {
+    font-size: 1.5em;
+  }
 }
 
 .aboutUs {
@@ -129,7 +135,7 @@ header .topNav .navList ul li a {
 
 @media (min-width: 768px) {
   .aboutUs #content {
-    margin: 5em;
+    margin: 2em 5em 5em 5em;
     margin-bottom: 0;
   }
   .aboutUs #content p {

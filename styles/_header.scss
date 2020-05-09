@@ -1,32 +1,27 @@
 header {
-  background-color: $mainColor;
-  border-bottom-left-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
   .topNav {
+    display: flex;
+    justify-content: space-between;
+    background-color: $mainColor;
+    color: $mainFontColor;
+    font-size: 1em;
+    font-family: $secondaryFont;
+    .navLogo {
       display: flex;
       align-items: center;
       margin-left: 1em;
-      img {
-        vertical-align: middle;
-      }
       h1 {
         font-family: $mainFont;
-        color: $mainFontColor;
       }
-    .navList {
-      ul {
-        list-style-type: none;
-        overflow: hidden;
-        font-family: $secondaryFont;
-        font-size: 1em;
-        li {
-          display: inline;
-          padding-left: 2em;
-          a {
-            display: inline-block;
-            text-decoration: none;
-            color: $mainFontColor;
-          }
+    }
+    .mainNav {
+      display: flex;
+      list-style-type: none;
+      li {
+        padding: 1em;
+        a {
+          color: $mainFontColor;
+          text-decoration: none;
         }
       }
     }
@@ -36,6 +31,8 @@ header {
 // Medium devices (Tablets)
 @media (min-width: 768px){
   header {
-
+    .topNav {
+      font-size: 1.5em;
+    }
   }
 }
