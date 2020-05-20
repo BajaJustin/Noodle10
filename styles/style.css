@@ -96,6 +96,10 @@ header .topNav .mainNav li a {
   border-radius: 50%;
 }
 
+.aboutUs #content #jumbotron {
+  display: none;
+}
+
 .aboutUs #content p {
   font-size: 0.9em;
   text-align: center;
@@ -150,6 +154,110 @@ header .topNav .mainNav li a {
   }
   .aboutUs #viewMenu .gg-bowl {
     --ggs: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .aboutUs #content {
+    margin: 0;
+  }
+  .aboutUs #content #aboutUsText {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .aboutUs #content #ramenBowl {
+    display: none;
+  }
+  .aboutUs #content #jumbotron {
+    display: block;
+    background: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 100%;
+    min-height: 30vh;
+  }
+  .aboutUs #content #jumbotron #mainHeader {
+    font-size: 6em;
+    font-family: "Roboto", sans-serif;
+    color: #AA381E;
+    padding-top: 2em;
+    margin-left: 2em;
+  }
+  .aboutUs #content #desktopImages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .aboutUs #content #desktopImages h2 {
+    color: #AA381E;
+  }
+  .aboutUs #content #desktopImages #flexItem1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: center;
+  }
+  .aboutUs #content #desktopImages #flexItem1 #flexItem1Image {
+    background-color: #AA381E;
+    width: 60%;
+    padding: 1em;
+  }
+  .aboutUs #content #desktopImages #flexItem1 #flexItem1Image img {
+    width: 30%;
+  }
+  .aboutUs #content #desktopImages #flexItem1 #flexItem1Text {
+    width: 40%;
+    margin-top: 9em;
+  }
+  .aboutUs #content #desktopImages #flexItem2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    text-align: center;
+  }
+  .aboutUs #content #desktopImages #flexItem2 #flexItem2Image {
+    background-color: #AA381E;
+    width: 40%;
+    padding: 1em;
+  }
+  .aboutUs #content #desktopImages #flexItem2 #flexItem2Image img {
+    width: 40%;
+  }
+  .aboutUs #content #desktopImages #flexItem2 #flexItem2Text {
+    width: 60%;
+    margin-top: 9em;
+  }
+  .aboutUs #content #desktopImages #flexItem3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+  .aboutUs #content #desktopImages #flexItem3 #flexItem3Image {
+    background-color: #AA381E;
+    width: 60%;
+    padding: 1em;
+  }
+  .aboutUs #content #desktopImages #flexItem3 #flexItem3Image img {
+    width: 30%;
+  }
+  .aboutUs #content #desktopImages #flexItem3 #flexItem3Text {
+    width: 40%;
+    margin-top: 9em;
+  }
+  .aboutUs a #viewMenu {
+    margin: 2em 25em 3em 25em;
   }
 }
 
