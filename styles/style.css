@@ -80,6 +80,12 @@ header .topNav .mainNav li a {
   }
 }
 
+@media (min-width: 992px) {
+  header .topNav {
+    font-size: 2.2em;
+  }
+}
+
 .aboutUs {
   font-family: "Roboto Slab", serif;
 }
@@ -168,6 +174,7 @@ header .topNav .mainNav li a {
   .aboutUs #content #aboutUsText {
     margin-left: 20%;
     margin-right: 20%;
+    font-size: 2em;
   }
   .aboutUs #content #ramenBowl {
     display: none;
@@ -217,7 +224,8 @@ header .topNav .mainNav li a {
   }
   .aboutUs #content #desktopImages #flexItem1 #flexItem1Text {
     width: 40%;
-    margin-top: 9em;
+    margin-top: 8em;
+    font-size: 1.5em;
   }
   .aboutUs #content #desktopImages #flexItem2 {
     display: -webkit-box;
@@ -239,7 +247,8 @@ header .topNav .mainNav li a {
   }
   .aboutUs #content #desktopImages #flexItem2 #flexItem2Text {
     width: 60%;
-    margin-top: 9em;
+    margin-top: 8em;
+    font-size: 1.5em;
   }
   .aboutUs #content #desktopImages #flexItem3 {
     display: -webkit-box;
@@ -258,7 +267,8 @@ header .topNav .mainNav li a {
   }
   .aboutUs #content #desktopImages #flexItem3 #flexItem3Text {
     width: 40%;
-    margin-top: 9em;
+    margin-top: 8em;
+    font-size: 1.5em;
   }
   .aboutUs a #viewMenu {
     margin: 2em 25em 3em 25em;
@@ -367,6 +377,38 @@ header .topNav .mainNav li a {
   }
 }
 
+@media (min-width: 992px) {
+  .flex-container .menuSection {
+    font-size: 2.8em;
+  }
+  .flex-container .menuItems {
+    width: 40%;
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+  .flex-container .menuItems img {
+    width: 50%;
+    height: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .flex-container .menuItems h3 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+  }
+  .flex-container .menuItems p {
+    font-size: 2em;
+  }
+  .flex-container .menuItems .price {
+    font-size: 2em;
+    margin-left: 18em;
+    margin-right: 18em;
+  }
+  .flex-container .beverages {
+    margin-top: 2em;
+  }
+}
+
 footer {
   font-family: "Roboto Slab", serif;
   font-weight: bold;
@@ -406,6 +448,21 @@ footer .hoursOpen {
   }
   footer .hoursOpen {
     font-size: 1em;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    height: 10em;
+  }
+  footer .location {
+    font-size: 2em;
+  }
+  footer .daysOpen {
+    font-size: 1.5em;
+  }
+  footer .hoursOpen {
+    font-size: 1.5em;
   }
 }
 /*# sourceMappingURL=style.css.map */

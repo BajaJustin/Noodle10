@@ -37,3 +37,19 @@ footer {
     }
   }
 }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  footer {
+    height: 10em;
+    .location {
+      font-size: 2em;
+    }
+    .daysOpen {
+      font-size: 1.5em;
+    }
+    .hoursOpen {
+      font-size: 1.5em;
+    }
+  }
+}
